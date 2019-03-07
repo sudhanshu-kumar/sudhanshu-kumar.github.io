@@ -5,17 +5,26 @@
     <title>Test Page: Don't Panic</title>
     <meta charset="utf-8">
     <style>
-        a{
+        a {
             color: red;
         }
-        div {
+
+        #exec-bio {
+            background-color: lightgray;
+        }
+
+        .bio-box {
             border: 1px solid black;
         }
-        div a {
+
+        .bio-box a {
             color: green;
         }
-        li {
-            border: 1px solid black;
+        #second-list {
+            background-color: orange;
+        }
+        .mylist {
+            background-color: azure;
         }
     </style>
 </head>
@@ -26,24 +35,24 @@
         <li>
             <a href="http://example.com/">Link</a>
         </li>
-        <li>
+        <li id="second-list">
             <a href="http://example.com/">Link</a>
         </li>
-        <li>
+        <li class="mylist">
             <a href="http://example.com/">Link</a>
         </li>
     </ul>
     <h2>I'm an h2</h2>
-    <div>
+    <div id="exec-bio" class="bio-box">
         <a href="http://example.com/">I'm a link</a>
     </div>
-    <div>
+    <div class="bio-box">
         <a href="http://example.com/">I'm a link</a>
     </div>
-    <div>
+    <div class="bio-box">
         <a href="http://example.com/">I'm a link</a>
     </div>
-    <div>
+    <div class="bio-box">
         <a href="http://example.com/">I'm a link</a>
     </div>
 </body>
